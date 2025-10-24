@@ -157,7 +157,7 @@
         }
         
                 function JhnDiscord(id, element) {
-            $.get(`https://discord.com/api/guilds/${id}/embed.json`, function (data) {
+            $.get(`https://discordapp.com/api/guilds/${id}/widget.json`, function (data) {
                 element.innerHTML = data["presence_count"];
             });
         }
@@ -278,3 +278,4 @@ particlesJS("particles-js", {
  </body>
 
  </html>
+
