@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Template made for "" by JohnDZN">
+    <meta name="description" content="Template made for "by JohnDZN">
     <meta name="author" content="JohnDZN">
     <meta name="link" content="">
     <link rel="icon" href="img/logo.png">
@@ -78,12 +78,14 @@
     <div id="logo">
              <a href="/"><img class="pulse infinite animated"  src="img/logo.png"></a>
         </div>
-	<div class="header-menu">
-            <ul id="ipl-menu" class="">
-                <li class="menu-link"><a href="/">Home</a></li>
-				<li class="menu-link"><a href="https://discord.gg/kWyj7RFyrx" target="_blank" rel="noopener noreferrer">Discord</a></li>
-                <li class="menu-link"><a href="https://tierlist.stonepvp.fun" target="_blank" rel="noopener noreferrer">Tier List</a></li>
-                <li class="menu-link"><a href="https://store.stonepvp.fun" target="_blank" rel="noopener noreferrer">Store</a></li>
+		<div class="header-menu">
+        <ul id="ipl-menu" class="">
+        <li class="menu-link"><a href="/">Home</a></li>
+        <li class="menu-link"><a href="https://discord.gg/kWyj7RFyrx" target="_blank">Discord</a></li>
+        <li class="menu-link"><a href="https://tierlist.stonepvp.fun" target="_blank">Tier List</a></li>
+        <li class="menu-link store"><a href="https://store.staticpvp.fun" target="_blank">Store</a></li>
+    </ul>
+</div>
             </ul>
     </div>
 </div>
@@ -94,29 +96,29 @@
           <div class="footer-sections">
 		    <div class="footer-col">
 			  <div class="footer-col-tit">About Us</div>
-			  <div class="footer-col-text">Welcome to StonePvP, the ultimate Asian-inspired Minecraft PvP server. Fast-paced combat, strategic battles, and epic events await. Join our competitive community and prove you’re the best!</div>
+			  <div class="footer-col-text"> Join StonePvP, the ultimate Minecraft experience! Battle, trade, and explore with thousands of players. Fast-paced PvP, epic perks, and a friendly community await you.</div>
 			</div>
 			<div class="footer-col">
 			  <div class="footer-col-tit">Links</div>
 			  <div class="footer-col-list">
-		        <ul style="list-style: none; padding: 0; margin: 0;">
-                <li class="menu-link"><a href="https://discord.gg/kWyj7RFyrx" target="_blank" rel="noopener noreferrer">Discord</a></li>
-                <li class="menu-link"><a href="https://tierlist.stonepvp.fun" target="_blank" rel="noopener noreferrer">Tier List</a></li>
-                <li class="menu-link"><a href="https://store.stonepvp.fun" target="_blank" rel="noopener noreferrer">Store</a></li>					
-    </ul>
-		<div class="footer-col">
+			    <a href="/" class="footer-col-link">Discord</a>
+				<a href="/" class="footer-col-link">Store</a>
+				<a href="/" class="footer-col-link">Tier List</a>
+			  </div>
+			</div>
+			<div class="footer-col">
 			  <div class="footer-col-tit">Visit Our Store</div>
-			  <div class="footer-col-text">Level up your Minecraft experience! Join our server for epic adventures, rare items, and exclusive perks. Shop now and unlock the fun! 🛒✨".</div>
-			  <a href="/" class="footer-col-btn btn btn-info">Visit Our Store</a>
+			  <div class="footer-col-text">Grab exclusive perks, rare items, and boosts to dominate the server! Shop now and enhance your Minecraft journey.</div>
+			  <a href="/" class="footer-col-btn btn btn-info">Visit</a>
 			</div>
 			</div>
-			</div>
-            <div class="footer-bottom" style="display: flex; justify-content: flex-end; align-items: center; gap: 10px; padding: 10px 20px;">
-            <span><b>Copyright StonePvP</b> 2025. Not affiliated with Mojang. All rights reserved.</span>
-            <a href="https://brildes.com/">
-            <img class="copyright-img" src="https://i.imgur.com/wvWLTcX.png" alt="JohnnDZN Watermark" style="height: 20px;">
-    </a>
-</div>
+			<div class="footer-sections-bot">
+            <div class="footer-cop">
+                <span><b>Copyright StonePvP</b> 2025. Not affiliated with Mojang. </span>
+          </div>
+          <div class="footer-watermark">
+              <a href="https://brildes.com/"><img class="copyright-img" src="https://i.imgur.com/wvWLTcX.png" alt="JohnnDZN Watermark"></a>
+              <!-- Removing or changing trademark isn't allowed! -->
           </div>
           </div>
           </div>
@@ -155,7 +157,7 @@
         }
         
                 function JhnDiscord(id, element) {
-            $.get(`https://discordapp.com/api/guilds/${id}/widget.json`, function (data) {
+            $.get(`https://discord.com/api/guilds/${id}/widget.json`, function (data) {
                 element.innerHTML = data["presence_count"];
             });
         }
@@ -274,19 +276,4 @@ particlesJS("particles-js", {
 });
 </script>
  </body>
-
  </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
